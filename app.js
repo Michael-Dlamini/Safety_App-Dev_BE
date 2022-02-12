@@ -13,6 +13,6 @@ app.use(bodyParser.json())
 app.use('/',router);
 
 
-//Display
+//Display on console log
 //app.listen(port,()=> console.log('listen on port '+ port))
 app.listen(port,() => console.log(`Server running on port: http://localhost:${port}`));
